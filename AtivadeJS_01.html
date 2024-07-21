@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica</title>
+</head>
+<body>
+<title>Meu App</title>
+
+<script>
+    var nome = prompt("Digite seu nome:");
+
+    var idade = parseInt(prompt("Digite sua idade:"));
+
+    console.log("Olá, " + nome + "!");
+
+    var anoAtual = new Date().getFullYear();
+    var anoNascimento = anoAtual - idade;
+
+    alert(nome + ", você nasceu em " + anoNascimento + ".");
+
+    console.log("Tenha um ótimo dia, " + nome + "!");
+</script>
+
+
+
+
+</body>
+</html>
